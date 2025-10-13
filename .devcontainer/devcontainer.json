@@ -1,0 +1,12 @@
+{
+  "name": "Arch makepkg (CachyOS kernel)",
+  "image": "archlinux:base-devel",
+  "remoteUser": "build",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb",
+    "storage": "32gb",
+    "architecture": "x86_64"
+  },
+  "postCreateCommand": "/postCreate.sh"
+}
